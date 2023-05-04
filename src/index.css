@@ -293,3 +293,9 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.snap{
+  position: absolute;
+  left: 0px;
+  padding: 10px;
+}
