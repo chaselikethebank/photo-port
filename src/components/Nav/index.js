@@ -22,13 +22,13 @@ function Nav() {
     return (
         <header>
             <h2>
-                <a href='/' >
+                <a data-testid="link" href='/' >
                 <span role="img" className='snap' aria-label="camera"> 📸 Oh Snap! </span> 
                 </a>
                 <nav>
                     <ul className='flex-row'>
                         <li className="mx-2">
-                            <a href="#about">
+                            <a data-testid="about" href="#about">
                                 About me
                             </a>
                         </li>
