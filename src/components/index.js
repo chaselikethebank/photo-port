@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-function SomeComponent() {
+function Timer() {
   const [seconds, setSeconds] = useState(0)
 
   function startStopwatch() {
@@ -20,4 +20,4 @@ return (
 )
 }
 
-export default SomeComponent;
+export default Timer;
