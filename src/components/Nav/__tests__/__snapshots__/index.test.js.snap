@@ -2,7 +2,9 @@
 
 exports[`Nav component matches snapshot 1`] = `
 <DocumentFragment>
-  <header>
+  <header
+    class="flex-row px-1"
+  >
     <h2>
       <a
         data-testid="link"
@@ -10,62 +12,43 @@ exports[`Nav component matches snapshot 1`] = `
       >
         <span
           aria-label="camera"
-          class="snap"
           role="img"
         >
-           📸 Oh Snap! 
+           📸
         </span>
+         Oh Snap!
       </a>
-      <nav>
-        <ul
-          class="flex-row"
-        >
-          <li
-            class="mx-2"
-          >
-            <a
-              data-testid="about"
-              href="#about"
-            >
-              About me
-            </a>
-          </li>
-          <li>
-            <span>
-              Contact
-            </span>
-          </li>
-          <li
-            class="mx-1"
-          >
-            <span>
-              commercial
-            </span>
-          </li>
-          <li
-            class="mx-1"
-          >
-            <span>
-              portraits
-            </span>
-          </li>
-          <li
-            class="mx-1"
-          >
-            <span>
-              food
-            </span>
-          </li>
-          <li
-            class="mx-1"
-          >
-            <span>
-              landscape
-            </span>
-          </li>
-        </ul>
-      </nav>
     </h2>
+    <nav>
+      <ul
+        class="flex-row"
+      >
+        <li
+          class="mx-2"
+        >
+          <a
+            data-testid="about"
+            href="#about"
+          >
+            About me
+          </a>
+        </li>
+        <li
+          class="mx-2"
+        >
+          <span>
+            Contact
+          </span>
+        </li>
+        <li
+          class="mx-1 false"
+        >
+          <span>
+            Portraits
+          </span>
+        </li>
+      </ul>
+    </nav>
   </header>
 </DocumentFragment>
 `;
