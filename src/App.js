@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import About from './components/About/index';
 import Nav from './components/Nav/index'
 import Gallery from "./components/Gallery";
+import ContactForm from "./components/Contact/index"
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
         currentCategory={currentCategory}
       />
       <main>
+      <ContactForm />
+
      <Gallery currentCategory={currentCategory} />
       <About />
       </main>
